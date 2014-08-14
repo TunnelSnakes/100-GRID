@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+body { font-family:'Lato', sans-serif; color:#444444; background-image:url(../../image/background/skulls.png); }
+
+h1,h2,h3,h4,h5,h6 { font-weight:900; }
+
+#headerNav {
+	height:80px;
+}
+
+.grid-container {
+	box-shadow:0 0 10px rgba(0,0,0,0.50);
+	background-color:#ffffff;
+}
+
+#headerNav ul {
+	margin-top:1.7em;
+}
+
+#headerNav ul li {
+	display:inline;
+	margin-right:1em;
+}
+
+#headerNav ul li a {
+	text-decoration:none;
+	color:#444444;
+	font-weight:900;
+	font-size:1.2rem;
+}
+
+#siteBanner {
+	height:400px;
+	background-color:#2D1559;
+	background-image:url(../../image/background/gridBackground.png);
+	background-size:cover;
+	overflow:hidden;
+}
+
+#siteBanner h2 {
+	color:#ffffff;
+	font-size:2rem;
+	text-shadow:0 1px 0 rgba(0,0,0,0.75);
+}
+
+#siteBanner p {
+	color:#fff;
+	font-size:1.2rem;
+}
+
+.g100BannerBtn {
+	display:block;
+	width:12em;
+	position:absolute;
+	bottom:25px;
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:700;
+	background-color:#3C802B;
+	background-image:-linear-gradient(#33A457,#3C802B);
+	background-image:-moz-linear-gradient(#33A457,#3C802B);
+	background-image:-webkit-linear-gradient(#33A457,#3C802B);
+	padding:10px;
+	border-radius:2.5px;
+	border:1px solid #3C802B;
+	margin-top:150px;
+	box-shadow:0 2px 0 #184E22;
+	text-shadow:0 1px 0 rgba(0,0,0,0.50);
+}
+
+.gridDisplay {
+	text-align:center;
+	font-weight:900;
+	color:#444444;
+	text-shadow:0 1px 0 rgba(255,255,255,0.50);
+}
+
+.gridDisplay:nth-child(odd) {
+	background-color:#e1e1e1;
+}
+
+.gridDisplay:nth-child(even) {
+	background-color:#a1a1a1;
+}
+
+#gridDisplay h3, #gridDisplay h4 {
+	text-align:center;
+}
+
+#gridConc h3, #gridConc p {
+	text-align:left;
+}
+
+#gridFooter {
+}
+
+#gridFooter p {
+	font-size:0.9rem;
+	text-align:center;
+}
+
+abbr {
+	border-bottom:1px dotted #444444;
+}
+
+#cssIcon {
+	position:absolute;
+	right:100px;
+	bottom:-50px;
+	transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
+	width:300px;
+}
+

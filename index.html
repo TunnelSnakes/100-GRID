@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="assets/css/grid/100-grid.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/global/siteStyles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="grid-container">
+    
+    	<div class="grid grid-100">
+        	<div class="grid grid-15">
+            	<h1 class="siteBrand">100-GRID</h1>
+            </div>
+            <div class="grid grid-35 push-right">
+            	<nav id="headerNav">
+                	<ul class="push-right">
+                        <li><a href="#email">Contact</a></li>
+                        <li><a href="#">Download From Github</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="grid grid-100" id="siteBanner">
+        	<div class="grid grid-35">
+            	<h2>100-GRID is a basic and simplistic grid system.</h2>
+                <p>100-GRID is aimed at teaching students the basics of using CSS grids and how powerful and useful they can be to any skill leveled web developer!</p>
+                <p>The aim is to also bring an understanding to the system and teach students how to develop their own grids.</p>	
+            	<a href="100-GRID/100-grid.css" target="new" rel="external" class="g100BannerBtn">View RAW CSS</a>
+            </div>
+            <div class="grid grid-65">
+            	<img src="assets/image/icon/cssIcon.png" alt="" id="cssIcon">
+            </div>
+        </div>
+        
+        <div class="grid grid-100">
+        	<div class="grid grid-50">
+            	<h3>How does 100-GRID work?</h3>
+                <p>100-GRID works by using percentage based sizes that go up in increments of five percent for each size. For example you would have 'grid-05','grid-10' and so on...</p>
+                <p>All the grids are aligned with 'inline-block' and have a negative 'margin-right' of four pixels. This ensures all the grids line up equally.</p>
+                <p>Because the grid revolves around increment of five percentages, it's realtively easy to space and work the grids out. The grids are also nestable and take in there parents height values so spacing of elements inside the grids are a lot easier to control individually.</p>
+                <p>This grid system was also made for fixed widths in mind or a complete one hundred percent wide website.</p>
+            </div>
+            <div class="grid grid-50">
+            	<h3>Why did I include normalize.css?</h3>
+                <p>I chose to include this style sheet directly into the grid because it's a preference I have been using for my own web development adventures ever since I started.</p>
+                <p>I believe it's an incredibly powerful tool. 100-GRID was built around normalize but that doesn't mean you need to use it! This grid system works perfectly fine without it.</p>
+                <p>Removing it is as simple as deleting the minified line from the grid style sheet or commenting it out!</p>
+            </div>
+        </div>
+        
+        <div class="grid grid-100" id="gridDisplay">
+        	<div class="grid grid-100">
+            	<h3>Let's check it out shall we!</h3>
+                <h4>Here we have one quarter aligned with three quarters.</h4>
+                <div class="grid grid-25 gridDisplay">
+                    <p>25%</p>
+                </div> 
+                <div class="grid grid-75 gridDisplay">
+                    <p>75%</p>
+                </div>
+                <h4>Here we have four twenty five values aligned.</h4>
+                <div class="grid grid-25 gridDisplay">
+                    <p>25%</p>
+                </div> 
+                <div class="grid grid-25 gridDisplay">
+                    <p>25%</p>
+                </div>
+                <div class="grid grid-25 gridDisplay">
+                    <p>25%</p>
+                </div> 
+                <div class="grid grid-25 gridDisplay">
+                    <p>25%</p>
+                </div>
+                <h4>Here we have two halfs.</h4>
+                <div class="grid grid-50 gridDisplay">
+                    <p>50%</p>
+                </div> 
+                <div class="grid grid-50 gridDisplay">
+                    <p>50%</p>
+                </div>
+                <h4>Here we have thirds (This is where the 'margin-right' trick works a treat!).</h4>
+                <div class="grid grid-33 gridDisplay">
+                    <p>33%</p>
+                </div> 
+                <div class="grid grid-33 gridDisplay">
+                    <p>33%</p>
+                </div>
+                <div class="grid grid-33 gridDisplay">
+                    <p>33%</p>
+                </div>
+                <h4>Here we have tenths.</h4>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+                <div class="grid grid-10 gridDisplay">
+                    <p>10%</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-100" id="gridConc">
+            	<div class="grid grid-60">
+            		<h3>Fairly easy isn't it?</h3>
+                    <p>There are a total of twenty one grid widths to use and choose from, above was only just a basic selection of what is in store!</p>
+                    <p>If you happen to have any questions or queries, or you still... just don't quite get it, don't be afraid to ask me questions! When I get a spare moment all your answers will be revealed!</p>
+                </div>
+                <div class="grid grid-40">
+                	<h3>Contacting Me...</h3>
+                    <p>The best way of contacting me is directly by my email which I tend to check a few times a day. But you can contact me through my steam account as well if that is an option for you.</p>
+                    <p id="email"><abbr title="Email: chrispeach.web@gmail.com">E:</abbr> chrispeach.web@gmail.com</p>
+                    <p id="steam"><abbr title="Steam Account: http://steamcommunity.com/id/tstm/">S:</abbr> http://steamcommunity.com/id/tstm/</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-100" id="gridFooter">
+            	<div class="grid grid-100">
+                	<p>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</p>
+            	</div>
+            </div>
+            
+        </div>
+        
+	</div>
+    
+</body>
+</html>
